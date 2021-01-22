@@ -14,8 +14,7 @@ class DetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
         print(recipe?.id)
         
         let url = URL(string: "https://spoonacular.com/recipes/turkish-delight-664089")
